@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Delete session",
+    "description": "Adds a Delete session action to a session row (the … menu or right-click). The dialog shows the exact storage path, size, and subagent sessions. A session this run never opened is erased immediately and its row disappears; a session that is open or still running is marked for deletion and cleared at the next DSH start, because its Agent still holds the log open and would write it back. Nothing is sent to any model. Unlike Archive session, which only hides a row and keeps its log, this cannot be undone. Turning the plugin off removes the menu action; sessions already deleted stay deleted.",
+    "detail": "docs/DETAIL.md"
+  }
+}
